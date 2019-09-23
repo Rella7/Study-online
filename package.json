@@ -1,0 +1,32 @@
+{
+  "name": "Study-online",
+  "version": "1.0.0",
+  "description": "学成在线教育平台",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next -p 8085",
+    "build": "next build",
+    "start": "next start -p 8087"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rella7/Study-online.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rella7/Study-online/issues"
+  },
+  "homepage": "https://github.com/Rella7/Study-online#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "antd": "^3.10.3",
+    "less": "^3.8.1",
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
